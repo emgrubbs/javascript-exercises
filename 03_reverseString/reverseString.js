@@ -1,7 +1,5 @@
 const reverseString = function(str) {
-   const arr = Array.from(str);
-   const rev = arr.reverse();
-   return rev.join("");
+   return Array.from(str).reverse().join("");
 }
 
 // Do not edit below this line
